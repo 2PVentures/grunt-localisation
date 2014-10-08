@@ -1,0 +1,49 @@
+{
+  "name": "grunt-localisation",
+  "description": "A grunt task for source files localisation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/salsita/mobius.git",
+  "author": {
+    "name": "Alex Khrapko",
+    "url": "https://github.com/oilart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salsita/mobius.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oilart/grunt-localisation/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/oilart/grunt-localisation/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1",
+    "grunt-text-replace": "~0.3.12"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "localisation",
+    "translate"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "readmeFilename": "README.md"
+}
