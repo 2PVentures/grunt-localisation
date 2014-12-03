@@ -60,7 +60,7 @@ module.exports = function(grunt) {
           var fileDest = dirName!=='.'?getDestinationPath(dest, localeCode) + dirName:getDestinationPath(dest, localeCode);
 
           var settings = {
-            src: ['src/app/' + filepath],
+            src: [filepath],
             dest: fileDest + '/',
 
             replacements: localeReplacements
