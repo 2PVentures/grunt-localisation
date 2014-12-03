@@ -55,14 +55,9 @@ module.exports = function(grunt) {
       // Iterate over all specified file groups.
       files.forEach(function(f) {
         f.src.forEach(function(filepath) {
-
-          var dirName = path.dirname(filepath);
-          var fileDest = dirName!=='.'?getDestinationPath(dest, localeCode) + dirName:getDestinationPath(dest, localeCode);
-
           var settings = {
             src: [filepath],
-            dest: fileDest + '/',
-
+            dest: getDestinationPath(f.dest, localeCode),
             replacements: localeReplacements
           };
 
